@@ -3,7 +3,9 @@
 
 body {
          background-color: rgb(3, 3, 3);
-         font-family: Verdana, Geneva, Tahoma, sans-serif;}
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
 .name{font-size: 40px;}
 .sec1{        display: grid;
               grid-template-rows: 60px;
@@ -224,25 +226,40 @@ li a {
     .four {
             background-color: rgb(40, 40, 40);
             display: grid;
-            grid-template-rows: 160px;
+            grid-template-rows: 200px;
             grid-template-columns:1fr 1fr 1fr;
+            position: relative;
+            height: 200px;
+            font-size: 1vw;
         }
 
       #hea{
         text-align: center;
       }
-      #add{
+      #hea4{
+        color: #cfcfcf;
+      }
+      #hea4:hover {
+        color: #17843d;
+      }
+      /* #add{
         text-align: left;
         position: relative;
         left: 175px;
-      }
+      } */
+       #add{
+        color: rgb(193, 3, 3);
+       }
+       #add:hover{
+        color: #cfcfcf;
+       }
 
       .social-icons a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 1.3rem;
+    height: 1.3rem;
     background-color: transparent;
     border: 0.2rem solid beige;
     font-size: 2rem;
@@ -288,9 +305,9 @@ li a {
         }
 
  /*footer*/
-.footer {
+/* .footer {
     background-color: rgb(7, 7, 7);
-}
+}  */
 
  /* For Mobile */
            @media only screen and (max-width:600px){                                             
