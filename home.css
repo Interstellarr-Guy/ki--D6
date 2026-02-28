@@ -247,11 +247,13 @@ li a {
             font-size: 1vw;
             border: 2px solid red;
         }
-    .address{margin-top: 16px;}
+    .address{margin-top: 16px;  border: 2px solid blueviolet;}
     .social-icons{margin-top: 16px;
                   border: 2px solid blueviolet;
+                  text-align: center;
+                  align-items: center;
     }
-    .d{margin-top: 16px;}
+    .d{margin-top: 16px;  border: 2px solid blueviolet;}
 
       
       #hea4{
@@ -285,6 +287,8 @@ li a {
     border-radius: 50%;
     margin: 3rem 1.9rem 3rem 0;
     transition: 0.3s ease;
+    position: relative; 
+    left: 20px;
 }
       .social-icons a:hover{
          color: black;
@@ -323,19 +327,15 @@ li a {
         top: 10px;
         }
 
- /*footer*/
-/* .footer {
-    background-color: rgb(7, 7, 7);
-}  */
-
  /* For Mobile */
            @media only screen and (max-width:600px){                                             
             
-    *{position: relative; }
-    .name     {grid-area: 1/ span 4; position: relative; }
-    .nav      {grid-area: 2/ span 4; position: relative; }
+   /* *{position: relative; } */
+   .sec1{border: 2px solid red;}
+    .name     {grid-area: 1/ span 4; text-align: center;  border: 2px solid rgb(110, 43, 43); }
+    .nav      {grid-area: 2/ span 4; position: relative; border: 2px solid rgb(21, 255, 0);}
     
-    .two       {grid-area: 2/ span 4; position: relative;  }
+    .two       {grid-area: 2/ span 4;   }
     .slogan1   {grid-area: 3/ span 4; position: relative;  }
     .three     {grid-area: 4/ span 4; position: relative; left: -0px; display: inline-block;  }
     .three     {background-color: #00541e}
@@ -343,35 +343,37 @@ li a {
     .review1   {grid-area: 5/ span 4; position: relative;  }
     .review2   {grid-area: 6/ span 4; position: relative;  }
     .form      {grid-area: 7/ span 4; position: relative; top: 20px;}
-    .address   {grid-area: 8/ span 4; position: relative; left: -150px; text-align: center; }
-    .social-icons{grid-area: 9/ span 4; position: relative; left: 12px; }
+    
+    .address   {grid-area: 8/ span 4; position: relative;  text-align: center; }
+    .social-icons{grid-area: 9/ span 4; position: relative;  }
     .d         {grid-area: 10/ span 4; position: relative; }
            
     .address h2 {position: relative; left: 145px; }
    
     
-    
+    .review1{margin-top: 8px;}
     .review1 img{position: relative; left: 0px;}
     .review2 img{position: relative; left: 0px;}
     .review-head {position: relative; left: 64px; font-size: 11px; top: 30px;}
 
-    .two{position: relative; transform: scale(0.33); left: -157px; height: 400px; top: 20px;}
-    .slideshow-container{position: relative; top: -209px;}                                
+    .two{ position: relative; transform: scale(0.272); left: -157px; height: 400px; top: 20px; border: 2px solid rgb(17, 255, 0);}
+    .slideshow-container{position: relative; top: -209px; background-color: rgb(225, 222, 222);}                                
     .sec1{position: relative; padding-bottom: 15px;}
-    .name{font-size: 27px; position: relative; left: -60px;}
-    .nav a{font-size: 18px; position: relative; left: -0px; top: 0px;}
-    .nav {display: inline-block; left: -76px;}
+   /* .name{font-size: 27px; position: relative; left: -60px;} */
+    .nav a{font-size: 16px; position: relative; left: -0px; top: 0px;}
+    .nav {display: inline-block; left: -6px;}
      li a{position: relative;  padding:7px; top: -5px; }
 
      .slogan1{font-size: 11px; position: relative; top: -88px;}
    
-     .form h1{font-size: 26px;  }
+     .form h1{font-size: 26px;   }
      .form form{ border-radius: 7px; padding-bottom: 10px; }
      .four{position: relative;}
-     .address{position: relative; top: -70px;}
+     .address{position: relative; top: -120px; border: 3px solid violet;}
      .address h4{position: relative; top: -30px; color: rgb(161, 36, 36); font-size: 14px;}
      .social-icons{position: relative; top: -50px;}
      .social-icons h2{position: relative; left: -17px;}
+     #hea4{font-size: 1rem; text-align: center; position: relative; top:-30px; left: -16px;}
 } 
 
 
