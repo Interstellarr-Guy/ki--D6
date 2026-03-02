@@ -356,7 +356,9 @@ li a {
     .review2 img{position: relative; left: 0px;}
     .review-head {position: relative; left: 64px; font-size: 11px; top: 30px;}
 
-    .two{ position: relative; transform: scale(0.272); left: -157px; height: 400px; top: 20px; border: 2px solid rgb(17, 255, 0);}
+     .two{ position: relative; transform: scale(0.26); left: -157px; 
+          height: 400px; top: 20px; border: 2px solid rgb(17, 255, 0);} 
+    
     .slideshow-container{position: relative; top: -209px; background-color: rgb(225, 222, 222);}                                
     .sec1{position: relative; padding-bottom: 15px;}
    /* .name{font-size: 27px; position: relative; left: -60px;} */
@@ -374,23 +376,7 @@ li a {
      .social-icons{position: relative; top: -50px;}
      .social-icons h2{position: relative; left: -17px;}
      #hea4{font-size: 1rem; text-align: center; position: relative; top:-30px; left: -16px;}
-} 
+     
+}
 
-
-     /* .nav{
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 20px;
-    overflow: hidden;
-      position: relative;
-      top: 5px;
-      left: 80px;}
-li
-{float: left;}
-li a { 
-   /*display: inline-block;
-    padding: 10px;
-    font-size: 30px;} */
   
